@@ -1,14 +1,14 @@
 [
 	{
-		"name": "Nikelino",
-		"leaderName": "Paolo Magno",
-		"adjective": ["nikelinese"],
-		"startBias": ["Avoid [Tundra]","Avoid [Desert]"],
-		"preferredVictoryType": "Scientific",
-		"favoredReligion": "Orgasmo di Ele",
+		"name": "Italia",
+		"leaderName": "Romolo",
+		"adjective": ["italiano"],
+		"startBias": ["Avoid [Tundra]","Avoid [Desert]", "Avoid [Snow]"],
+		"preferredVictoryType": "Cultural",
+		"favoredReligion": "Eywa",
 		
-		"startIntroPart1": "In principio era l'Orgasmo, e l'Orgasmo era presso Eleonora, e l'Orgasmo era Eleonora. Paolo ottenne l'Orgasmo da Eleonora e decise di donarlo al mondo.",
-        "startIntroPart2": "Fonda Nikelino, offri a tutte le donne e gli uomini l'occasione di vivere nel tuo impero e diffondi l'Orgasmo nel Mondo!",
+		"startIntroPart1": "Dai primi villaggi delle antiche tribù italiche alla grandezza di Roma: l'inizio di una avventura millenaria, forgiata dalla volontà e sempre illuminata da cultura e scienza. La storia di Italia è una parte portante della Storia. ",
+        "startIntroPart2": "Guida il tuo popolo attraverso i secoli, accogli nuove popolazioni ad arricchire la tua stirpe, accompagna l'epopea dei comuni e delle repubbliche marinare, ammira la gloria del Rinascimento, combatti per il Risorgimento e l'Indipendenza. Garantisci Libertà, Democrazie e Giustizia al mondo!",
 		
 		"declaringWar": "Noi siamo Nikelino. Preparatevi a essere assimilati, la resistenza è inutile",
 		"attacked": "Vuoi sfidare Nikelino? Molto divertente!",
