@@ -1,7 +1,7 @@
 [
 	{
 		"name": "Italia",
-		"leaderName": "Romolo",
+		"leaderName": "Romolo", /* se possibile poi Dante, Leonardo, Cavour, Pertini e Agnese Maria */
 		"adjective": ["italiano"],
 		"startBias": ["Avoid [Tundra]","Avoid [Desert]", "Avoid [Snow]"],
 		"preferredVictoryType": "Cultural",
@@ -30,10 +30,14 @@
 
 		"outerColor": [0,140,69],
 		"innerColor": [205,33,42],
-		"uniqueName": "Gloria d'Italia", 
-		"uniques": ["[+25]% Production towards any buildings that already exist in the Capital", "[All] units gain the [Stringiamci a coorte] promotion",
+		"uniqueName": "Gloria d'Italia",
+		"uniqueText": "Una cultura millenaria, figlia di Roma, erede dei Comuni e delle Repubbliche Marinare che prospera con Cultura, Scienza e Resilieza.",
+		"uniques": ["[+1] Culture in each Era starting from Classical", "[+10]% Science in cities with a University", 
+			"[+25]% Production towards any buildings that already exist in the Capital", "[All] units gain the [Stringiamci a coorte] promotion", 
+			"[All] units gain the [Resilienza italiana] promotion",
 			"Enables embarkation for land units <starting from the [Ancient era]> <Suppress warning [*contains a conditional on a unit movement unique*]>",
-            "Enables [All] units to enter ocean tiles <starting from the [Ancient era]>","[+1] Sight <for [Embarked] units>",],
+            "Enables [All] units to enter ocean tiles <starting from the [Ancient era]>","[+1] Sight <for [Embarked] units>"],
+		
 		"cities": ["Roma","Firenze","Torino","Venezia","Cagliari","Avellino","Napoli","Palermo","Bologna",
             "Siracusa","Taranto","Genova", "Pisa","Amalfi", "Siena", "Parma", "Assisi", "Urbino", "Reggio"]
      }
