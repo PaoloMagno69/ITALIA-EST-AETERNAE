@@ -1,33 +1,19 @@
 [
 {
-		"name": "Nikelino in aeternum est",
-		"uniques": ["Can move immediately once bought",
+		"name": "Stringiamci a coorte",
+		"uniques": ["[+15]% Strength <when defending>", 
+			"All adjacent units heal [+5] HP when healing", "[-50]% weight to this choice for AI decisions",
 			"[+15]% Strength <vs [Barbarian] units>"]
 },
 {
-		"name": "Pictish Courage", // only for Guerriero Taurino and subsequent upgrades
-		"uniques": ["No movement cost to pillage", "[+20]% Strength <when fighting in [Foreign Land] tiles>"]
+		"name": "Resilienza italiana",
+		"uniques": ["[+5] HP when healing in friendly territory>",
+			"[+50]% XP gained from combat"]
 },
-  {
-		"name": "Sangue di Drago", // only for Guerriero sardo and subsequent upgrades
-		"uniques": ["[-20]% Strength for enemy [Military] units in adjacent [All] tiles"]
-	},
-	{
+{
 		"name": "Imperator Mundi",
 		"uniques": ["Can see invisible [All] units"]
-	},
-	{
-		"name": "Mater Draconum",
-		"uniques": ["Can see invisible [All] units"]
-	},
-	{
-		"name": "Sith Eternal",
-		"uniques": ["Can see invisible [All] units"]
-	},
-	{
-		"name": "Lato Oscuro", // Per tutti i Sith
-		"uniques": ["[+15]% Strength"]
-	}
+}
 ]
 
 
