@@ -1,7 +1,7 @@
 [
     /* CAMPIONI DELLE CIVILTA' Romolo, Cesare, Dante (cavaliere), Machiavelli, Garibaldi, Partigiano, Giustizia */
 	{
-		"name": "Paolo Magno", /* Immagine Roal DA IMPOSTARE */
+		"name": "Romolo", /* Immagine Roal DA IMPOSTARE */
 		"unitType": "Sword",
 		"movement": 2,
 		"strength": 17,
@@ -33,7 +33,7 @@
 		"attackSound": "metalhit"
 	},	
 	{
-		"name": "Nora Madre dei Draghi", /* Immagine DA IMPOSTARE */
+		"name": "Cesare", /* Immagine DA IMPOSTARE */
 		"unitType": "Sword",
 		"movement": 2,
 		"strength": 17,
@@ -65,7 +65,7 @@
 		"attackSound": "metalhit"
 	},	
 	{
-		"name": "Oscuro Signore", /* Immagine DA IMPOSTARE */
+		"name": "Dante", /* Immagine DA IMPOSTARE */
 		"unitType": "Sword",
 		"movement": 2,
 		"strength": 17,
@@ -97,7 +97,7 @@
 		"attackSound": "metalhit"
 	},	
 	{
-		"name": "Apprendista Sith", /* Immagine DA IMPOSTARE */
+		"name": "Machiavelli", /* Immagine DA IMPOSTARE */
 		"unitType": "Sword",
 		"movement": 2,
 		"strength": 10,
@@ -129,15 +129,101 @@
 		"attackSound": "metalhit"
 	},	
 	{
-		"name": "Schiavo Oscuro Signore", /* Immagine DA IMPOSTARE */
-		"unitType": "Civilian",
-		"uniqueTo": "Sith",
-		"replaces": "Worker",
-		"CapturedUnit": "Worker",
+		"name": "Garibaldi", /* Immagine DA IMPOSTARE */
+		"unitType": "Sword",
 		"movement": 2,
-		"uniques": ["Can build [Land] improvements on tiles", "Automation is a primary action"],
-		"cost": 20
-	},
+		"strength": 10,
+		"cost": 500,
+		"uniques": [
+			"[+5]% Strength bonus for [Military] units within [2] tiles",
+			"[-10]% Strength for enemy [Military] units in adjacent [All] tiles",
+			"Uncapturable",
+			"Limited to [1] per Civilization",
+			"Only available <in cities with a [Grande Tempio del Lato Oscuro]>",
+			"[+25]% XP gained from combat",
+			"Heals [25] damage if it kills a unit",
+			"[+20]% Strength <for every [Era number]>",
+			"[+10]% Strength <starting from the [Modern era]>",
+			"[+10]% Strength <starting from the [Atomic era]>",
+			"[+10]% Strength <starting from the [Information era]>",
+			"[+10]% Strength <starting from the [Future era]>",
+			"[+1] Movement <starting from the [Renaissance era]>",
+			"[+1] Movement <starting from the [Modern era]>",
+			"[+1] Movement <starting from the [Information era]>",
+			"Cost increases by [50] when built",
+			"[-20]% Strength <for [All] units> <for [10] turns> <upon being defeated>",
+			"Gain [-20] [Science] <(modified by game speed)> <upon being defeated> <hidden from users>",
+			"Gain [-20] [Culture] <(modified by game speed)> <upon being defeated> <hidden from users>",
+			"Gain [-50] [Gold] <(modified by game speed)> <upon being defeated> <hidden from users>",
+			"Comment [Lose [-20 Culture, -20 Science, -50 Gold] upon being defeated]"
+		],
+		"promotions": ["Sith Eternal"],
+		"attackSound": "metalhit"
+	},	
+	{
+		"name": "Partigiano", /* Immagine DA IMPOSTARE */
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 10,
+		"cost": 500,
+		"uniques": [
+			"[+5]% Strength bonus for [Military] units within [2] tiles",
+			"[-10]% Strength for enemy [Military] units in adjacent [All] tiles",
+			"Uncapturable",
+			"Limited to [1] per Civilization",
+			"Only available <in cities with a [Grande Tempio del Lato Oscuro]>",
+			"[+25]% XP gained from combat",
+			"Heals [25] damage if it kills a unit",
+			"[+20]% Strength <for every [Era number]>",
+			"[+10]% Strength <starting from the [Modern era]>",
+			"[+10]% Strength <starting from the [Atomic era]>",
+			"[+10]% Strength <starting from the [Information era]>",
+			"[+10]% Strength <starting from the [Future era]>",
+			"[+1] Movement <starting from the [Renaissance era]>",
+			"[+1] Movement <starting from the [Modern era]>",
+			"[+1] Movement <starting from the [Information era]>",
+			"Cost increases by [50] when built",
+			"[-20]% Strength <for [All] units> <for [10] turns> <upon being defeated>",
+			"Gain [-20] [Science] <(modified by game speed)> <upon being defeated> <hidden from users>",
+			"Gain [-20] [Culture] <(modified by game speed)> <upon being defeated> <hidden from users>",
+			"Gain [-50] [Gold] <(modified by game speed)> <upon being defeated> <hidden from users>",
+			"Comment [Lose [-20 Culture, -20 Science, -50 Gold] upon being defeated]"
+		],
+		"promotions": ["Sith Eternal"],
+		"attackSound": "metalhit"
+	},	
+	{
+		"name": "Giustizia", /* Immagine DA IMPOSTARE */
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 10,
+		"cost": 500,
+		"uniques": [
+			"[+5]% Strength bonus for [Military] units within [2] tiles",
+			"[-10]% Strength for enemy [Military] units in adjacent [All] tiles",
+			"Uncapturable",
+			"Limited to [1] per Civilization",
+			"Only available <in cities with a [Grande Tempio del Lato Oscuro]>",
+			"[+25]% XP gained from combat",
+			"Heals [25] damage if it kills a unit",
+			"[+20]% Strength <for every [Era number]>",
+			"[+10]% Strength <starting from the [Modern era]>",
+			"[+10]% Strength <starting from the [Atomic era]>",
+			"[+10]% Strength <starting from the [Information era]>",
+			"[+10]% Strength <starting from the [Future era]>",
+			"[+1] Movement <starting from the [Renaissance era]>",
+			"[+1] Movement <starting from the [Modern era]>",
+			"[+1] Movement <starting from the [Information era]>",
+			"Cost increases by [50] when built",
+			"[-20]% Strength <for [All] units> <for [10] turns> <upon being defeated>",
+			"Gain [-20] [Science] <(modified by game speed)> <upon being defeated> <hidden from users>",
+			"Gain [-20] [Culture] <(modified by game speed)> <upon being defeated> <hidden from users>",
+			"Gain [-50] [Gold] <(modified by game speed)> <upon being defeated> <hidden from users>",
+			"Comment [Lose [-20 Culture, -20 Science, -50 Gold] upon being defeated]"
+		],
+		"promotions": ["Sith Eternal"],
+		"attackSound": "metalhit"
+	},	
 	/* Great people */
 	{
     "name": "Sacerdotessa Lupa",
@@ -183,70 +269,7 @@
 		"movement": 2
 	   },
 	    /* UNITA' UNICHE STANDARD*/
-	    {
-		"name": "Tracio",
-		"unitType": "Sword",
-		"uniqueTo": "Nikelino",
-		"movement": 2,
-		"strength": 6,
-		"cost": 30,
-		"obsoleteTech": "Metal Casting",
-		"upgradesTo": "Swordsman",
-		"attackSound": "nonmetalhit"
-	},
-	{
-		"name": "Guerriera amazzone",
-		 "icon": "Guerriera amazzone",
-		"unitType": "Sword",
-		"uniqueTo": "Nikelino",
-		"movement": 2,
-		"strength": 12,
-		"cost": 60,
-		"obsoleteTech": "Metal Casting",
-		"upgradesTo": "Swordsman",
-		"attackSound": "nonmetalhit"
-	},
-	{
-		"name": "Arcere amazzone",
-		"unitType": "Archery",
-		"uniqueTo": "Nikelino",
-		"movement": 2,
-		"strength": 7,
-		"rangedStrength": 7,
-		"cost": 60,
-		"requiredTech": "Archery",
-		"obsoleteTech": "Construction",
-		"upgradesTo": "Composite Bowman",
-		"attackSound": "arrow"
-	},
-		{
-		"name": "Dacio",
-		"unitType": "Archery",
-		"uniqueTo": "Nikelino",
-		"movement": 2,
-		"strength": 3,
-		"rangedStrength": 7,
-		"cost": 30,
-		"requiredTech": "Archery",
-		"obsoleteTech": "Machinery",
-		"upgradesTo": "Crossbowman",
-		"attackSound": "arrow"
-	},
-		{
-		"name": "Unno",
-		"unitType": "Archery",
-		"uniqueTo": "Nikelino",
-		"movement": 4,
-		"strength": 7,
-		"rangedStrength": 10,
-		"cost": 56,
-		"requiredTech": "The Wheel",
-		"upgradesTo": "Knight",
-		"obsoleteTech": "Chivalry",
-		"uniques": ["No defensive terrain bonus"],
-		"promotions": ["Accuracy I"],
-		"attackSound": "arrow"
-	},
+	    
 	{
 		"name": "Oplite siracusano",
 		"unitType": "Sword",
