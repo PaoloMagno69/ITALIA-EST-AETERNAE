@@ -1,7 +1,7 @@
 [
 	{
 		"name": "Italia",
-		"leaderName": "Pitagora", /* se possibile poi Marco Aurelio, Dante, Leonardo, Cavour, Pertini e Agnese Maria */
+		"leaderName": "Pitagora", /* se possibile poi Marco Aurelio, Federico Puer Apulia, Leonardo, Cavour, Pertini e Agnese Maria */
 		"adjective": ["italiano"],
 		"startBias": ["Avoid [Tundra]","Avoid [Desert]", "Avoid [Snow]"],
 		"preferredVictoryType": "Cultural",
