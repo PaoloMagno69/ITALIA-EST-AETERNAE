@@ -1,9 +1,9 @@
 [
-	/* Edifici o Meraviglie uniche Italia per epoca: Foro di Traiano, Castel del Monte, Cupola del Brunelleschi, 
+	/* Edifici o Meraviglie uniche Italia per epoca: Su Nuraxi di Barumini, Foro di Traiano, Castel del Monte, Cupola del Brunelleschi, 
 	Diciassette Marzo, Costituzione, Palazzo di Giustizia Falcone e Borsellino */
 	  {
-        "name": "Tempio di Maria Mater",
-        "uniqueTo": "Nikelino",
+        "name": "Su Nuraxi di Barumini",
+        "uniqueTo": "Italia",
         "isWonder": true,
         "requiredTech": "Agriculture",
         "cost": 1,
@@ -17,7 +17,7 @@
 	    {
         "name": "Statua di Gerardo Optimus Maximo",
 	    "replaces": "Statue of Zeus",
-        "uniqueTo": "Nikelino",
+        "uniqueTo": "Italia",
         "isWonder": true,
         "requiredTech": "Bronze Working",
         "cost": 1,
@@ -27,7 +27,7 @@
         },
 	    {
         "name": "Tempio dei Draghi",
-        "uniqueTo": "Shardana",
+        "uniqueTo": "Italia",
         "isWonder": true,
         "requiredTech": "Agriculture",
         "cost": 1,
@@ -40,7 +40,7 @@
         },
 	    {
         "name": "Grande Tempio del Lato Oscuro",
-        "uniqueTo": "Sith",
+        "uniqueTo": "Italia",
         "isWonder": true,
         "requiredTech": "Calendar",
         "cost": 1,
@@ -68,7 +68,7 @@
 	{
 		"name": "Lupanare",
 		"replaces": "Circus",
-		"uniqueTo": "Nikelino",
+		"uniqueTo": "Italia",
 		"cost": 80,
 		"happiness": 7,
 		"maintenance": 2,
@@ -77,7 +77,7 @@
 	{
 		"name": "Tempio di Agnese Maria",
 		"replaces": "Circus Maximus",
-		"uniqueTo": "Shardana",
+		"uniqueTo": "Italia",
 		"cost": 480,
 		"happiness": 12,
 		"culture": 12,
