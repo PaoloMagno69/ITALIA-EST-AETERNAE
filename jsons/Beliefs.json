@@ -19,5 +19,103 @@
         "type": "Pantheon",
         "uniques": ["[+2 Faith] from every [Gems]","[+2 Faith] from every [Pearls]"]
     },
+	{
+        "name": "Culto di Tinia",
+        "type": "Pantheon",
+        "uniques": [
+            "[+1 Faith] from every [Wine]",
+            "[+1 Faith] from every [Olives]",
+            "[+1 Faith] from every [Marble]"
+        ]
+    },
+    {
+        "name": "Reitia",
+        "type": "Pantheon",
+        "uniques": [
+            "[+1 Faith] from every [Deer]",
+            "[+1 Culture] from every [Shrine]"
+        ]
+    },
+    {
+        "name": "Mefite",
+        "type": "Pantheon",
+        "uniques": [
+            "[+2 Faith] from every [Sulphur]",
+            "[+1 Faith] from every [River]"
+        ]
+    },
+    {
+        "name": "Sacro Fuoco di Vesta",
+        "type": "Pantheon",
+        "uniques": [
+            "[+1 Faith] from every [Palace]",
+            "[+1 Faith] from every [Granary]"
+        ]
+    },
+    {
+        "name": "Acque di Sardegna",
+        "type": "Pantheon",
+        "uniques": [
+            "[+1 Faith] from every [Fish]",
+            "[+1 Faith] from every [Pearls]",
+            "[+1 Culture] from every [Lake]"
+        ]
+    },
+    {
+        "name": "Marsi e Serpenti",
+        "type": "Pantheon",
+        "uniques": [
+            "[+1 Faith] from every [Horses]",
+            "[+1 Faith] from every [Jungle]"
+        ]
+    },
+    {
+        "name": "Dioscuri Latini",
+        "type": "Pantheon",
+        "uniques": [
+            "[+1 Faith] from every [Horses]",
+            "[+1 Culture] from every [Stable]"
+        ]
+    },
+    {
+        "name": "Nerthus Sabina",
+        "type": "Pantheon",
+        "uniques": [
+            "[+1 Faith] from every [Wheat]",
+            "[+1 Food] from every [Farm]"
+        ]
+    },
+    {
+        "name": "Umbri e Fulmini",
+        "type": "Pantheon",
+        "uniques": [
+            "[+1 Faith] from every [Hill]",
+            "[+1 Faith] from every [Iron]"
+        ]
+    },
+    {
+        "name": "Sanniti Guerrieri",
+        "type": "Pantheon",
+        "uniques": [
+            "[+1 Faith] from every [Barracks]",
+            "[+1 Production] from every [Iron]"
+        ]
+    },
+    {
+        "name": "Giunone Moneta",
+        "type": "Pantheon",
+        "uniques": [
+            "[+1 Faith] from every [Gold]",
+            "[+1 Gold] from every [Market]"
+        ]
+    },
+    {
+        "name": "Culto di Cibele",
+        "type": "Pantheon",
+        "uniques": [
+            "[+1 Faith] from every [Sheep]",
+            "[+1 Faith] from every [Pasture]"
+        ]
+    }
 
 ]
