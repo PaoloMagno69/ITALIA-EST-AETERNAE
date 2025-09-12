@@ -39,6 +39,21 @@
             "Enables [All] units to enter ocean tiles <starting from the [Ancient era]>","[+1] Sight <for [Embarked] units>"],
 		
 		"cities": ["Roma","Firenze","Torino","Venezia","Cagliari","Avellino","Napoli","Palermo","Bologna",
-            "Siracusa","Taranto","Genova", "Pisa","Amalfi", "Siena", "Parma", "Assisi", "Urbino", "Reggio"]
-     }
+            "Siracusa","Taranto","Genova", "Pisa","Amalfi", "Siena", "Parma", "Assisi", "Urbino", "Reggio"],
+		"spyNames": [
+            "Gasparo","Giosafat","Ambrogio","Niccolo","Marino","Cesare","Francesco","Giovanni","Bertolome","Filomena"]
+     },
+	  //City-States
+	  {
+        "name": "Trieste",
+        "adjective": ["Triestian"],
+        "cityStateType": "Mercantile",
+        "declaringWar": "We have wanted this for a LONG time. War it shall be.",
+        "attacked": "Very well, we will kick you back to the ancient era!",
+        "defeated": "This isn't how it is supposed to be!",
+        "outerColor": [0, 0, 0],
+        "innerColor": [230, 166, 82],
+        "uniques": [],
+        "cities": ["Trieste"]
+    },
 	 ]
