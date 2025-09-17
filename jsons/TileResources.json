@@ -25,7 +25,7 @@
    {
 		"name": "Acciaio di Damasco", 
 		"resourceType": "Luxury",
-		"gold": 1,
+		"gold": 2,
 		"uniques": ["Can only be created by Mercantile City-States"]
 	},
 
