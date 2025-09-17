@@ -1,30 +1,60 @@
 [
 	/* Edifici o Meraviglie uniche Italia per epoca: Su Nuraxi di Barumini, Foro di Traiano, Castel del Monte, Cupola del Brunelleschi, 
 	Diciassette Marzo, Costituzione, Palazzo di Giustizia Falcone e Borsellino, Pizzeria, Università di Bologna */
-	  {
-        "name": "Su Nuraxi di Barumini",
+	    /* EPOCA ANTICA */   
+	    {
+        "name": "Lupa capitolina", // SEMBRA OK //
         "uniqueTo": "Italia",
         "isWonder": true,
         "requiredTech": "Agriculture",
         "cost": 1,
         "science": 1,
-        "uniques": ["[+1 Happiness, +1 Faith, +1 Food] [in all cities]",
-            "Free [Paolo Magno] appears",
-            "Gain a free [Monument] [in this city]",
-            "Automatically built in all cities where it is buildable"],
-		"quote": "In questo luogo sacro, la Madre accoglie i figli di ogni tempo, guidandoli con luce di fede e forza di speranza."
-        },
+        "uniques": ["Free [Romolo] appears", "Automatically built in all cities where it is buildable"],
+		"quote": "Nutrita dalla lupa, Romolo muove i suoi primi passi, i primi passi di Roma e dell'Italia!"
+        },  
 	    {
-        "name": "Statua di Gerardo Optimus Maximo",
-	    "replaces": "Statue of Zeus",
+        "name": "Su Nuraxi di Barumini", // SEMBRA OK //
         "uniqueTo": "Italia",
         "isWonder": true,
-        "requiredTech": "Bronze Working",
-        "cost": 1,
-        "culture": 1,
-        "uniques": ["[+15]% Strength <for [All] units> <vs cities> <when attacking>"],
-		"quote": "Bruciamo l'incenso in onore di Gerardo Optimus Maximo, signore di forza e rettitudine, padre e guida degli uomini."
+        "requiredTech": "Agriculture",
+        "cost": 269,
+        "science": 1,
+		"cityStrength": 7,
+        "uniques": ["[+25]% City Strength from defensive buildings"],
+		"quote": "Un imponente complesso megalitico della Sardegna antica, simbolo di forza e protezione."
         },
+	    /* EPOCA CLASSICA */  
+	     {
+        "name": "Foro di Cesare", // SEMBRA OK //
+        "uniqueTo": "Italia",
+        "isWonder": true,
+        "requiredTech": "Iron Working",
+        "cost": 1,
+        "science": 1,
+        "uniques": ["Free [Cesare] appears", "Automatically built in all cities where it is buildable"],
+		"quote": "Veni, vidi, vici: il destino d'Italia sarà scritto con il sangue dei nemici e la gloria dei conquistatori!"
+        },  
+	    {
+        "name": "Foro di Traiano", // SEMBRA OK //
+	    "uniqueTo": "Italia",
+        "isWonder": true,
+        "requiredTech": "Bronze Working",
+        "cost": 200,
+		"happiness": 2,
+        "culture": 1,
+		"requiredTech": "Construction",
+        "uniques": ["Only available <if [Library] is constructed in all [non-[Puppeted]] cities>","Free Social Policy"],
+		"quote": "Ogni colonna del Foro di Traiano ricorda ai cittadini che la legge deve essere strumento di giustizia e libertà."
+        },
+	{
+		"name": "Circus Maximus",
+		"cost": 125,
+		"happiness": 5,
+		"culture": 1,
+		"isNationalWonder": true,
+		"uniques": ["Only available <if [Colosseum] is constructed in all [non-[Puppeted]] cities>", "Cost increases by [30] per owned city"],
+		"requiredTech": "Horseback Riding"
+	},
 	    {
         "name": "Tempio dei Draghi",
         "uniqueTo": "Italia",
