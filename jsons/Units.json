@@ -389,4 +389,29 @@
 		"uniques": ["Can move after attacking","No defensive terrain bonus"],
 		"attackSound": "horse"
 	    },
+	    {
+		"name": "Guerriero spada Ulfberht", /* Immagine uguale o simile a Longswordsman*/
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 25,
+		"cost": 142,
+		"requiredTech": "Steel",
+		"upgradesTo": "Musketman",
+		"obsoleteTech": "Gunpowder",
+		"requiredResource": "Spade Ulfberht",
+		"attackSound": "metalhit"
+	    },
+	    {
+		"name": "Guerriero spada Damasco", /* Immagine uguale o simile a Longswordsman*/
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 25,
+		"cost": 142,
+		"requiredTech": "Steel",
+		"upgradesTo": "Musketman",
+		"obsoleteTech": "Gunpowder",
+		"requiredResource": "Acciaio di Damasco",
+		"attackSound": "metalhit"
+	    },
+	  	
 	]
