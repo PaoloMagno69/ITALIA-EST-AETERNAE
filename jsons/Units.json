@@ -1,17 +1,18 @@
 [
     /* CAMPIONI DELLE CIVILTA' Romolo, Cesare, Federico Puer Apulia, Dante (cavaliere), Leonardo, Machiavelli, Garibaldi, Partigiano, Giustizia */
 	{
-		"name": "Romolo", /* Immagine Roal DA IMPOSTARE */
+		"name": "Romolo", /* Immagine DA IMPOSTARE */
 		"unitType": "Sword",
 		"movement": 2,
-		"strength": 17,
+		"strength": 11,
 		"cost": 500,
 		"uniques": [
-			"[+20]% Strength bonus for [Military] units within [2] tiles",
-			"[-10]% Strength for enemy [Military] units in adjacent [All] tiles",
+			"[+15]% Strength <vs [Barbarian] units>",
+			"[+10]% Strength bonus for [Military] units within [2] tiles",
+			"[-5]% Strength for enemy [Military] units in adjacent [All] tiles",
 			"Uncapturable",
 			"Limited to [1] per Civilization",
-			"Only available <in cities with a [Tempio di Maria Mater]>",
+			"Only available <in cities with a [Lupa capitolina]>",
 			"[+100]% XP gained from combat",
 			"Heals [25] damage if it kills a unit",
 			"[+50]% Strength <for every [Era number]>",
@@ -29,21 +30,22 @@
 			"Gain [-100] [Gold] <(modified by game speed)> <upon being defeated> <hidden from users>",
 			"Comment [Lose [-50 Culture, -50 Science, -100 Gold] upon being defeated]"
 		],
-		"promotions": ["Imperator Mundi"],
+		"promotions": ["Mystic Blade"],
 		"attackSound": "metalhit"
 	},	
 	{
 		"name": "Cesare", /* Immagine DA IMPOSTARE */
 		"unitType": "Sword",
 		"movement": 2,
-		"strength": 17,
+		"strength": 20,
 		"cost": 500,
 		"uniques": [
-			"[+20]% Strength bonus for [Military] units within [2] tiles",
-			"[-10]% Strength for enemy [Military] units in adjacent [All] tiles",
+			"[+15]% Strength <vs [Barbarian] units>",
+			"[+10]% Strength bonus for [Military] units within [2] tiles",
+			"[-5]% Strength for enemy [Military] units in adjacent [All] tiles",
 			"Uncapturable",
 			"Limited to [1] per Civilization",
-			"Only available <in cities with a [Tempio dei Draghi]>",
+			"Only available <in cities with a [Foro di Cesare]>",
 			"[+100]% XP gained from combat",
 			"Heals [25] damage if it kills a unit",
 			"[+50]% Strength <for every [Era number]>",
@@ -61,21 +63,33 @@
 			"Gain [-100] [Gold] <(modified by game speed)> <upon being defeated> <hidden from users>",
 			"Comment [Lose [-50 Culture, -50 Science, -100 Gold] upon being defeated]"
 		],
-		"promotions": ["Mater Draconum"],
+		"promotions": ["Mystic Blade"],
 		"attackSound": "metalhit"
-	},	
-	{
+	    },	
+	    {
+		"name": "Federico Puer Apulia",
+		"unitType": "Civilian",
+		"uniques": [
+            "[+15]% Strength bonus for [Military] units within [2] tiles",
+            "Can instantly construct a [Citadel] improvement <by consuming this unit>",
+			"Can be earned through combat",
+            "Is part of Great Person group [General]",
+			"Great Person - [War]", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	    },
+	    {
 		"name": "Dante", /* Immagine DA IMPOSTARE */
-		"unitType": "Sword",
-		"movement": 2,
-		"strength": 17,
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 22,
 		"cost": 500,
 		"uniques": [
+			"[+15]% Strength <vs [Barbarian] units>",
 			"[+10]% Strength bonus for [Military] units within [2] tiles",
-			"[-20]% Strength for enemy [Military] units in adjacent [All] tiles",
+			"[-5]% Strength for enemy [Military] units in adjacent [All] tiles",
 			"Uncapturable",
 			"Limited to [1] per Civilization",
-			"Only available <in cities with a [Grande Tempio del Lato Oscuro]>",
+			"Only available <in cities with a [Comedìa]>",
 			"[+100]% XP gained from combat",
 			"Heals [25] damage if it kills a unit",
 			"[+50]% Strength <for every [Era number]>",
@@ -87,16 +101,17 @@
 			"[+1] Movement <starting from the [Modern era]>",
 			"[+1] Movement <starting from the [Information era]>",
 			"Cost increases by [50] when built",
-			"[-50]% Strength <for [All] units> <for [10] turns> <upon being defeated>",
+			"[-10]% Strength <for [All] units> <for [10] turns> <upon being defeated>",
 			"Gain [-50] [Science] <(modified by game speed)> <upon being defeated> <hidden from users>",
 			"Gain [-50] [Culture] <(modified by game speed)> <upon being defeated> <hidden from users>",
 			"Gain [-100] [Gold] <(modified by game speed)> <upon being defeated> <hidden from users>",
-			"Comment [Lose [-50 Culture, -50 Science, -100 Gold] upon being defeated]"
+			"Comment [Lose [-50 Culture, -50 Science, -100 Gold] upon being defeated]",
+			"Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>",
 		],
-		"promotions": ["Sith Eternal"],
-		"attackSound": "metalhit"
-	},	
-	{
+		"promotions": ["Mystic Blade"],
+		"attackSound": "horse"
+	    },	
+		{
 		"name": "Machiavelli", /* Immagine DA IMPOSTARE */
 		"unitType": "Sword",
 		"movement": 2,
