@@ -57,7 +57,7 @@
 		"quote": "Stupor mundi et immutator mirabilis: Federico Puer Apulia!"
         },
 	    {
-        "name": "Comedìa", // SEMBRA OK //
+        "name": "Comedia", // SEMBRA OK //
         "uniqueTo": "Italia",
         "isWonder": true,
         "requiredTech": "Education",
