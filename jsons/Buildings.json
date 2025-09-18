@@ -46,40 +46,33 @@
         "uniques": ["Only available <if [Library] is constructed in all [non-[Puppeted]] cities>","Free Social Policy"],
 		"quote": "Ogni colonna del Foro di Traiano ricorda ai cittadini che la legge deve essere strumento di giustizia e libertà."
         },
-	{
-		"name": "Circus Maximus",
-		"cost": 125,
-		"happiness": 5,
-		"culture": 1,
-		"isNationalWonder": true,
-		"uniques": ["Only available <if [Colosseum] is constructed in all [non-[Puppeted]] cities>", "Cost increases by [30] per owned city"],
-		"requiredTech": "Horseback Riding"
-	},
+	    /* EPOCA MEDIOEVO */  
 	    {
-        "name": "Tempio dei Draghi",
+        "name": "Castel del Monte", // SEMBRA OK //
         "uniqueTo": "Italia",
         "isWonder": true,
-        "requiredTech": "Agriculture",
-        "cost": 1,
+        "requiredTech": "Civil Service",
         "science": 1,
-        "uniques": ["[+1 Happiness, +1 Faith, +1 Food] [in all cities]",
-            "Free [Nora Madre dei Draghi] appears",
-            "Gain a free [Monument] [in this city]",
-            "Automatically built in all cities where it is buildable"],
-		"quote": "Nel Tempio dei Draghi, il fuoco sacro dona forza alla Sardegna e alle genti dell’impero; i draghi non portarono solo fiamma, ma risveglio e potere eterno."
+        "uniques": ["Free [Federico Puer Apulia] appears"],
+		"quote": "Stupor mundi et immutator mirabilis: Federico Puer Apulia!"
         },
 	    {
-        "name": "Grande Tempio del Lato Oscuro",
+        "name": "Comedìa", // SEMBRA OK //
         "uniqueTo": "Italia",
         "isWonder": true,
-        "requiredTech": "Calendar",
-        "cost": 1,
-        "science": 1,
-        "uniques": ["[+2 Faith, +1 Food] [in all cities]",
-            "Free [Oscuro Signore] appears",
-            "Free [Apprendista Sith] appears",
-            "Automatically built in all cities where it is buildable"],
-		"quote": "Nel desiderio e nella passione risiede la vera forza: l’oscurità plasma i forti e consuma i deboli."
+        "requiredTech": "Education",
+        "culture": 2,
+        "uniques": ["Free [Dante] appears"],
+		"quote": "Lasciò un segno eterno nella Storia con la sua Divina Commedia ma fu anche politico a Firenze e valoroso cavaliere a Campaldino: Dante Alighieri, eccellenza italiana!"
+        },
+	    {
+        "name": "Cupola del Brunelleschi", // SEMBRA  //
+        "uniqueTo": "Italia",
+        "isWonder": true,
+        "requiredTech": "Education",
+        "culture": 2,
+        "uniques": ["Free [Dante] appears"],
+		"quote": "Lasciò un segno eterno nella Storia con la sua Divina Commedia ma fu anche politico a Firenze e valoroso cavaliere a Campaldino: Dante Alighieri, eccellenza italiana!"
         },
 	    {
 		"name": "Tempio di Eleonora",
