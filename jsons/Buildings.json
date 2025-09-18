@@ -132,7 +132,7 @@
         "name": "Palazzo di Giustizia Falcone e Borsellino", // SEMBRA  OK//
         "uniqueTo": "Italia",
         "isWonder": true,
-        "requiredTech": "Computer",
+        "requiredTech": "Computers",
         "culture": 3,
 		"happiness": 3,
         "uniques": ["Free [Giustizia] appears"],
