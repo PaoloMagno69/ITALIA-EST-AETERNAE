@@ -67,13 +67,18 @@
 		"attackSound": "metalhit"
 	    },	
 	    {
-		"name": "Federico Puer Apulia",
+		"name": "Federico Puer Apulia", /* Immagine DA IMPOSTARE */
 		"unitType": "Civilian",
 		"uniques": [
-            "[+15]% Strength bonus for [Military] units within [2] tiles",
-            "Can instantly construct a [Citadel] improvement <by consuming this unit>",
-			"Can be earned through combat",
-            "Is part of Great Person group [General]",
+			 "Limited to [1] per Civilization",
+			 "Only available <in cities with a [Castel del Monte]>",
+             "[+15]% Strength bonus for [Military] units within [2] tiles",
+			 "[-5]% Strength for enemy [Military] units in adjacent [All] tiles",
+			 "[+1] Movement <starting from the [Renaissance era]>",
+			 "[+1] Movement <starting from the [Modern era]>",
+			 "[+1] Movement <starting from the [Information era]>",
+             "Can instantly construct a [Citadel] improvement <[7] times> <after which this unit is consumed>",
+			"Is part of Great Person group [General]",
 			"Great Person - [War]", "Unbuildable", "Uncapturable"],
 		"movement": 2
 	    },
@@ -111,39 +116,37 @@
 		"promotions": ["Mystic Blade"],
 		"attackSound": "horse"
 	    },	
-		{
-		"name": "Machiavelli", /* Immagine DA IMPOSTARE */
-		"unitType": "Sword",
-		"movement": 2,
-		"strength": 10,
-		"cost": 500,
+	    {
+		"name": "Leonardo", /* Immagine DA IMPOSTARE */
+		"unitType": "Civilian",
 		"uniques": [
-			"[+5]% Strength bonus for [Military] units within [2] tiles",
-			"[-10]% Strength for enemy [Military] units in adjacent [All] tiles",
-			"Uncapturable",
-			"Limited to [1] per Civilization",
-			"Only available <in cities with a [Grande Tempio del Lato Oscuro]>",
-			"[+25]% XP gained from combat",
-			"Heals [25] damage if it kills a unit",
-			"[+20]% Strength <for every [Era number]>",
-			"[+10]% Strength <starting from the [Modern era]>",
-			"[+10]% Strength <starting from the [Atomic era]>",
-			"[+10]% Strength <starting from the [Information era]>",
-			"[+10]% Strength <starting from the [Future era]>",
-			"[+1] Movement <starting from the [Renaissance era]>",
-			"[+1] Movement <starting from the [Modern era]>",
-			"[+1] Movement <starting from the [Information era]>",
-			"Cost increases by [50] when built",
-			"[-20]% Strength <for [All] units> <for [10] turns> <upon being defeated>",
-			"Gain [-20] [Science] <(modified by game speed)> <upon being defeated> <hidden from users>",
-			"Gain [-20] [Culture] <(modified by game speed)> <upon being defeated> <hidden from users>",
-			"Gain [-50] [Gold] <(modified by game speed)> <upon being defeated> <hidden from users>",
-			"Comment [Lose [-20 Culture, -20 Science, -50 Gold] upon being defeated]"
-		],
-		"promotions": ["Sith Eternal"],
-		"attackSound": "metalhit"
-	},	
-	{
+			 "Limited to [1] per Civilization",
+			 "Only available <in cities with a [Cupola del Brunelleschi]>",
+             "[+1] Movement <starting from the [Renaissance era]>",
+			 "[+1] Movement <starting from the [Modern era]>",
+			 "[+1] Movement <starting from the [Information era]>",
+             "Can instantly construct a [Landmark] improvement <[7] times> <after which this unit is consumed>",
+			 "Can instantly construct a [Manufactory] improvement <[7] times> <after which this unit is consumed>",
+			"Is part of Great Person group [Great Person]",
+			"Great Person - [Production]", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	    },
+	     {
+		"name": "Machiavelli", /* Immagine DA IMPOSTARE */
+		"unitType": "Civilian",
+		"uniques": [
+			 "Limited to [1] per Civilization",
+			 "Only available <in cities with a [Il Principe]>",
+             "[+1] Movement <starting from the [Renaissance era]>",
+			 "[+1] Movement <starting from the [Modern era]>",
+			 "[+1] Movement <starting from the [Information era]>",
+             "Can instantly construct a [Landmark] improvement <[7] times> <after which this unit is consumed>",
+			 "Can instantly construct a [Manufactory] improvement <[7] times> <after which this unit is consumed>",
+			"Is part of Great Person group [Great Person]",
+			"Great Person - [Production]", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	    },
+			{
 		"name": "Garibaldi", /* Immagine DA IMPOSTARE */
 		"unitType": "Sword",
 		"movement": 2,
