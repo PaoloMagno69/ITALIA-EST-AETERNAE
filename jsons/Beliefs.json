@@ -17,13 +17,6 @@
         "uniques": ["[+2 Happiness] [in cities following this religion]"]
     },
 	{
-        "name": "Sacro Fuoco di Vesta",
-        "type": "Pantheon",
-        "uniques": [
-           "[+5]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>"
-        ]
-    },
-	{
         "name": "Acque di Sardegna",
         "type": "Pantheon",
         "uniques": [
