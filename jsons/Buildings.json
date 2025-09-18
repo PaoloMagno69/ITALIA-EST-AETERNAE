@@ -65,17 +65,19 @@
         "uniques": ["Free [Dante] appears"],
 		"quote": "Lasciò un segno eterno nella Storia con la sua Divina Commedia ma fu anche politico a Firenze e valoroso cavaliere a Campaldino: Dante Alighieri, eccellenza italiana!"
         },
+	    /* EPOCA RINASCIMENTALE */  
 	    {
-        "name": "Cupola del Brunelleschi", // SEMBRA  //
+        "name": "Cupola del Brunelleschi", // SEMBRA  OK//
         "uniqueTo": "Italia",
         "isWonder": true,
-        "requiredTech": "Education",
+        "requiredTech": "Architecture",
         "culture": 2,
-        "uniques": ["Free [Dante] appears"],
-		"quote": "Lasciò un segno eterno nella Storia con la sua Divina Commedia ma fu anche politico a Firenze e valoroso cavaliere a Campaldino: Dante Alighieri, eccellenza italiana!"
+		"science": 2,
+        "uniques": ["Free [Leonardo] appears"],
+		"quote": "Il Rinascimento italiano, ineguagliabile fioritura di arti e saperi, aprì all’umanità le porte della modernità!"
         },
 	    {
-		"name": "Tempio di Eleonora",
+		"name": "Il Principe",
 		"replaces": "Circus Maximus",
 		"uniqueTo": "Nikelino",
 		"cost": 480,
