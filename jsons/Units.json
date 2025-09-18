@@ -146,146 +146,91 @@
 			"Great Person - [Production]", "Unbuildable", "Uncapturable"],
 		"movement": 2
 	    },
-			{
+		{
 		"name": "Garibaldi", /* Immagine DA IMPOSTARE */
-		"unitType": "Sword",
+		"unitType": "Gunpowder",
 		"movement": 2,
-		"strength": 10,
+		"strength": 38,
 		"cost": 500,
 		"uniques": [
-			"[+5]% Strength bonus for [Military] units within [2] tiles",
-			"[-10]% Strength for enemy [Military] units in adjacent [All] tiles",
+			"[+10]% Strength bonus for [Military] units within [2] tiles",
+			"[-5]% Strength for enemy [Military] units in adjacent [All] tiles",
 			"Uncapturable",
 			"Limited to [1] per Civilization",
-			"Only available <in cities with a [Grande Tempio del Lato Oscuro]>",
-			"[+25]% XP gained from combat",
+			"Only available <in cities with a [Altare 17 Marzo]>",
+			"[+100]% XP gained from combat",
 			"Heals [25] damage if it kills a unit",
-			"[+20]% Strength <for every [Era number]>",
-			"[+10]% Strength <starting from the [Modern era]>",
-			"[+10]% Strength <starting from the [Atomic era]>",
-			"[+10]% Strength <starting from the [Information era]>",
-			"[+10]% Strength <starting from the [Future era]>",
-			"[+1] Movement <starting from the [Renaissance era]>",
+			"[+50]% Strength <for every [Era number]>",
+			"[+25]% Strength <starting from the [Modern era]>",
+			"[+25]% Strength <starting from the [Atomic era]>",
+			"[+25]% Strength <starting from the [Information era]>",
+			"[+25]% Strength <starting from the [Future era]>",
 			"[+1] Movement <starting from the [Modern era]>",
 			"[+1] Movement <starting from the [Information era]>",
 			"Cost increases by [50] when built",
-			"[-20]% Strength <for [All] units> <for [10] turns> <upon being defeated>",
-			"Gain [-20] [Science] <(modified by game speed)> <upon being defeated> <hidden from users>",
-			"Gain [-20] [Culture] <(modified by game speed)> <upon being defeated> <hidden from users>",
-			"Gain [-50] [Gold] <(modified by game speed)> <upon being defeated> <hidden from users>",
-			"Comment [Lose [-20 Culture, -20 Science, -50 Gold] upon being defeated]"
+			"[-10]% Strength <for [All] units> <for [10] turns> <upon being defeated>",
+			"Gain [-50] [Science] <(modified by game speed)> <upon being defeated> <hidden from users>",
+			"Gain [-50] [Culture] <(modified by game speed)> <upon being defeated> <hidden from users>",
+			"Gain [-100] [Gold] <(modified by game speed)> <upon being defeated> <hidden from users>",
+			"Comment [Lose [-50 Culture, -50 Science, -100 Gold] upon being defeated]"
 		],
-		"promotions": ["Sith Eternal"],
-		"attackSound": "metalhit"
-	},	
-	{
+		"promotions": ["Mystic Blade"], ["Stringiamci a coorte"],
+		"attackSound": "shot"
+	    },	
+		{
 		"name": "Partigiano", /* Immagine DA IMPOSTARE */
-		"unitType": "Sword",
+		"unitType": "Gunpowder",
 		"movement": 2,
-		"strength": 10,
+		"strength": 66,
 		"cost": 500,
 		"uniques": [
-			"[+5]% Strength bonus for [Military] units within [2] tiles",
-			"[-10]% Strength for enemy [Military] units in adjacent [All] tiles",
+			"[+10]% Strength bonus for [Military] units within [2] tiles",
+			"[-5]% Strength for enemy [Military] units in adjacent [All] tiles",
 			"Uncapturable",
 			"Limited to [1] per Civilization",
-			"Only available <in cities with a [Grande Tempio del Lato Oscuro]>",
-			"[+25]% XP gained from combat",
+			"Only available <in cities with a [Costituzione Italiana]>",
+			"[+100]% XP gained from combat",
 			"Heals [25] damage if it kills a unit",
-			"[+20]% Strength <for every [Era number]>",
-			"[+10]% Strength <starting from the [Modern era]>",
-			"[+10]% Strength <starting from the [Atomic era]>",
-			"[+10]% Strength <starting from the [Information era]>",
-			"[+10]% Strength <starting from the [Future era]>",
-			"[+1] Movement <starting from the [Renaissance era]>",
+			"[+50]% Strength <for every [Era number]>",
+			"[+25]% Strength <starting from the [Modern era]>",
+			"[+25]% Strength <starting from the [Atomic era]>",
+			"[+25]% Strength <starting from the [Information era]>",
+			"[+25]% Strength <starting from the [Future era]>",
 			"[+1] Movement <starting from the [Modern era]>",
 			"[+1] Movement <starting from the [Information era]>",
 			"Cost increases by [50] when built",
-			"[-20]% Strength <for [All] units> <for [10] turns> <upon being defeated>",
-			"Gain [-20] [Science] <(modified by game speed)> <upon being defeated> <hidden from users>",
-			"Gain [-20] [Culture] <(modified by game speed)> <upon being defeated> <hidden from users>",
-			"Gain [-50] [Gold] <(modified by game speed)> <upon being defeated> <hidden from users>",
-			"Comment [Lose [-20 Culture, -20 Science, -50 Gold] upon being defeated]"
+			"[-10]% Strength <for [All] units> <for [10] turns> <upon being defeated>",
+			"Gain [-50] [Science] <(modified by game speed)> <upon being defeated> <hidden from users>",
+			"Gain [-50] [Culture] <(modified by game speed)> <upon being defeated> <hidden from users>",
+			"Gain [-100] [Gold] <(modified by game speed)> <upon being defeated> <hidden from users>",
+			"Comment [Lose [-50 Culture, -50 Science, -100 Gold] upon being defeated]"
 		],
-		"promotions": ["Sith Eternal"],
-		"attackSound": "metalhit"
-	},	
-	{
+		"promotions": ["Mystic Blade"], ["Stringiamci a coorte"], ["Resilienza italiana"],
+		"attackSound": "shot"
+	    },	
+		{
 		"name": "Giustizia", /* Immagine DA IMPOSTARE */
-		"unitType": "Sword",
-		"movement": 2,
-		"strength": 10,
-		"cost": 500,
+		"unitType": "Civilian",
 		"uniques": [
-			"[+5]% Strength bonus for [Military] units within [2] tiles",
-			"[-10]% Strength for enemy [Military] units in adjacent [All] tiles",
-			"Uncapturable",
-			"Limited to [1] per Civilization",
-			"Only available <in cities with a [Grande Tempio del Lato Oscuro]>",
-			"[+25]% XP gained from combat",
-			"Heals [25] damage if it kills a unit",
-			"[+20]% Strength <for every [Era number]>",
-			"[+10]% Strength <starting from the [Modern era]>",
-			"[+10]% Strength <starting from the [Atomic era]>",
-			"[+10]% Strength <starting from the [Information era]>",
-			"[+10]% Strength <starting from the [Future era]>",
-			"[+1] Movement <starting from the [Renaissance era]>",
-			"[+1] Movement <starting from the [Modern era]>",
-			"[+1] Movement <starting from the [Information era]>",
-			"Cost increases by [50] when built",
-			"[-20]% Strength <for [All] units> <for [10] turns> <upon being defeated>",
-			"Gain [-20] [Science] <(modified by game speed)> <upon being defeated> <hidden from users>",
-			"Gain [-20] [Culture] <(modified by game speed)> <upon being defeated> <hidden from users>",
-			"Gain [-50] [Gold] <(modified by game speed)> <upon being defeated> <hidden from users>",
-			"Comment [Lose [-20 Culture, -20 Science, -50 Gold] upon being defeated]"
+			 "Limited to [1] per Civilization",
+			 "Only available <in cities with a [Palazzo di Giustizia Falcone e Borsellino]>",
+             "[+15]% Strength bonus for [Military] units within [2] tiles",
+			 "[-5]% Strength for enemy [Military] units in adjacent [All] tiles",
+			 "[+1] Movement <starting from the [Modern era]>",
+			 "[+1] Movement <starting from the [Information era]>",
+             "Can instantly construct a [Citadel] improvement <[7] times> <after which this unit is consumed>",
+			"Is part of Great Person group [General]",
+			"Great Person - [War]", "Unbuildable", "Uncapturable",
+		    "[-10]% Strength <for [All] units> <for [10] turns> <upon being defeated>",
+			"Gain [-50] [Science] <(modified by game speed)> <upon being defeated> <hidden from users>",
+			"Gain [-50] [Culture] <(modified by game speed)> <upon being defeated> <hidden from users>",
+			"Gain [-100] [Gold] <(modified by game speed)> <upon being defeated> <hidden from users>",
+			"Comment [Lose [-50 Culture, -50 Science, -100 Gold] upon being defeated]"
 		],
-		"promotions": ["Sith Eternal"],
-		"attackSound": "metalhit"
-	},	
-	/* Great people */
-	{
-    "name": "Sacerdotessa Lupa",
-    "unitType": "Civilian",
-    "uniqueTo": "Nikelino",
-    "cost": 60,
-    "movement": 2,
-    "strength": 0,
-    "requiredTech": "Pottery",
-    "actions": [],
-    "uniques": [
-      "Unbuildable by other Civilizations",
-      "Only buildable in capital",
-      "When this unit is present, player gains +1 Happiness per turn",
-	  "May enter foreign tiles without open borders", "[-1] Sight", "Great Person - [Faith]",
-      "Can be captured (like a Settler)"
-       ]
-       },
-	   {
-		"name": "Gigante di Mont'e Prama",
-		"unitType": "Civilian",
-		"uniqueTo": "Shardana",
-		"cost": 100,
-		"requiredTech": "Masonry",
-		"uniques": [
-            "[+15]% Strength bonus for [Military] units within [2] tiles",
-			"All adjacent units heal [+15] HP when healing", "[+15] HP when healing",
-            "Can instantly construct a [Nuraghe] improvement <by consuming this unit>",
-			"Can be earned through combat",
-            "Is part of Great Person group [General]",
-            "Great Person - [War]", "Uncapturable"],
-		"movement": 5
-	   },
-	   {
-		"name": "Jana",
-		"unitType": "Civilian",
-		"uniqueTo": "Shardana",
-		"cost": 60,
-		"requiredTech": "Pottery",
-		"uniques": [
-            "Can instantly construct a [Domu de Janas] improvement <by consuming this unit>",
-			"Uncapturable"],
 		"movement": 2
-	   },
+	    },
+	    /* Great people */
+	 
 	    /* UNITA' UNICHE STANDARD*/
 	    /* Ancient Era */
 	   {
@@ -306,7 +251,7 @@
 		"strength": 8,
 		"cost": 40,
 		"obsoleteTech": "Metal Casting",
-		"promotions": ["[Jaguar] ability","Woodsman"], //DA ADEGUARE
+		"promotions": ["Resilienza italiana"],
 		"upgradesTo": "Swordsman",
 		"uniques": ["May upgrade to [Spearman] through ruins-like effects"],
 		"attackSound": "nonmetalhit",
@@ -393,13 +338,13 @@
 		"attackSound": "arrow"
 	    },
 	    {
-		"name": "Mandekalu Cavalry",
+		"name": "Cavalleria comunale",
 		"unitType": "Mounted",
 		"replaces": "Knight",
 		"uniqueTo": "Songhai",
 		"movement": 4,
-		"strength": 20,
-		"cost": 110,
+		"strength": 22,
+		"cost": 120,
 		"requiredTech": "Chivalry",
 		"requiredResource": "Horses",
 		"upgradesTo": "Cavalry",
@@ -431,5 +376,4 @@
 		"requiredResource": "Acciaio di Damasco",
 		"attackSound": "metalhit"
 	    },
-	  	
-	]
+	  ]
