@@ -127,64 +127,26 @@
         "uniques": ["All newly-trained [relevant] units [in this city] receive the [Resilienza italiana] promotion", "Free [Partigiano] appears"],
 		"quote": "Dietro ogni articolo della Costituzione, o giovani, voi dovete vedere giovani come voi che hanno dato la vita perché la libertà e la giustizia potessero essere scritte su questa Carta.(Calamandrei)"
         },
-	
-	    {
-		"name": "Lupanare",
-		"replaces": "Circus",
-		"uniqueTo": "Italia",
-		"cost": 80,
-		"happiness": 7,
-		"maintenance": 2,
-		"requiredTech": "Engineering"
-	},
-	{
-		"name": "Tempio di Agnese Maria",
-		"replaces": "Circus Maximus",
-		"uniqueTo": "Italia",
-		"cost": 480,
-		"happiness": 12,
-		"culture": 12,
-		"science": 12,
-		"maintenance": 10,
-		"isNationalWonder": true,
-		"requiredBuildingInAllCities": "Colosseum",
-		"requiredTech": "Horseback Riding",
-		"quote": "Qui regna la figlia divina, colei che porta pace ai cuori, giustizia ai re e speranza agli uomini."
-	},
-	// Religious buildings
-
-	{
-		"name": "Cathedral",
-		"cost": 0,
-		"faith": 1,
-		"culture": 3,
-		"happiness": 1,
-		"specialistSlots": {"Artist": 1},
-		"uniques": ["Unbuildable", "Only available <when religion is enabled>"]
-	},
-	{
-		"name": "Monastery",
-		"cost": 0,
-		"culture": 2,
-		"faith": 2,
-		"uniques": ["[+1 Culture, +1 Faith] from [Wine] tiles [in this city]",
-			"[+1 Culture, +1 Faith] from [Incense] tiles [in this city]",
-			"Unbuildable", "Only available <when religion is enabled>", "Destroyed when the city is captured"]
-	},
-	{
-		"name": "Mosque",
+	    /* EPOCA ATOMICA */
+        {
+        "name": "Palazzo di Giustizia Falcone e Borsellino", // SEMBRA  OK//
+        "uniqueTo": "Italia",
+        "isWonder": true,
+        "requiredTech": "Computer",
+        "culture": 3,
+		"happiness": 3,
+        "uniques": ["Free [Giustizia] appears"],
+		"quote": "Tutti muoiono, ma tutti non muoiono nello stesso modo. (Borsellino)"
+        },
+	  
+	    // Religious buildings
+        {
+		"name": "Statua di Italia Turrita",
 		"cost": 0,
 		"culture": 2,
 		"faith": 3,
 		"happiness": 1,
+		"specialistSlots": {"Artist": 1},
 		"uniques": ["Unbuildable", "Only available <when religion is enabled>"]
-	},
-	{
-		"name": "Pagoda",
-		"cost": 0,
-		"culture": 2,
-		"faith": 2,
-		"happiness": 2,
-		"uniques": ["Unbuildable", "Only available <when religion is enabled>"]
-	}
-]
+	     },
+	  ]
