@@ -174,7 +174,7 @@
 			"Gain [-100] [Gold] <(modified by game speed)> <upon being defeated> <hidden from users>",
 			"Comment [Lose [-50 Culture, -50 Science, -100 Gold] upon being defeated]"
 		],
-		"promotions": ["Mystic Blade"], ["Stringiamci a coorte"],
+		"promotions": ["Mystic Blade", "Stringiamci a coorte"],
 		"attackSound": "shot"
 	    },	
 		{
@@ -205,7 +205,7 @@
 			"Gain [-100] [Gold] <(modified by game speed)> <upon being defeated> <hidden from users>",
 			"Comment [Lose [-50 Culture, -50 Science, -100 Gold] upon being defeated]"
 		],
-		"promotions": ["Mystic Blade"], ["Stringiamci a coorte"], ["Resilienza italiana"],
+		"promotions": ["Mystic Blade", "Stringiamci a coorte", "Resilienza italiana"],
 		"attackSound": "shot"
 	    },	
 		{
