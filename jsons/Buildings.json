@@ -38,12 +38,11 @@
         "name": "Foro di Traiano", // SEMBRA OK //
 	    "uniqueTo": "Italia",
         "isWonder": true,
-        "requiredTech": "Bronze Working",
+        "requiredTech": "Construction",
         "cost": 200,
 		"happiness": 2,
         "culture": 1,
-		"requiredTech": "Construction",
-        "uniques": ["Only available <if [Library] is constructed in all [non-[Puppeted]] cities>","Free Social Policy"],
+		"uniques": ["Only available <if [Library] is constructed in all [non-[Puppeted]] cities>","Free Social Policy"],
 		"quote": "Ogni colonna del Foro di Traiano ricorda ai cittadini che la legge deve essere strumento di giustizia e libertà."
         },
 	    /* EPOCA MEDIOEVO */  
@@ -66,7 +65,7 @@
 		"quote": "Lasciò un segno eterno nella Storia con la sua Divina Commedia ma fu anche politico a Firenze e valoroso cavaliere a Campaldino: Dante Alighieri, eccellenza italiana!"
         },
 	    {
-		"name": "Università di Bologna"
+		"name": "Università di Bologna",
 		"replaces": "Oxford University",
 		"uniqueTo": "Italia",
 		"cost": 200,
